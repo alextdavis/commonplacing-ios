@@ -21,6 +21,7 @@
 		D019493517F9F4130055A4C9 /* CommonplaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D019493417F9F4130055A4C9 /* CommonplaceTests.m */; };
 		D019493F17F9F44A0055A4C9 /* main_iphone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D019493E17F9F44A0055A4C9 /* main_iphone.storyboard */; };
 		D019494117F9F4650055A4C9 /* main_ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D019494017F9F4650055A4C9 /* main_ipad.storyboard */; };
+		D0488D5817F9FFA500112BD2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0488D5717F9FFA500112BD2 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		D019493417F9F4130055A4C9 /* CommonplaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonplaceTests.m; sourceTree = "<group>"; };
 		D019493E17F9F44A0055A4C9 /* main_iphone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main_iphone.storyboard; sourceTree = "<group>"; };
 		D019494017F9F4650055A4C9 /* main_ipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main_ipad.storyboard; sourceTree = "<group>"; };
+		D0488D5617F9FFA500112BD2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D0488D5717F9FFA500112BD2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		D019490317F9F4130055A4C9 = {
 			isa = PBXGroup;
 			children = (
+				D0488D5617F9FFA500112BD2 /* MainViewController.h */,
+				D0488D5717F9FFA500112BD2 /* MainViewController.m */,
 				D019493E17F9F44A0055A4C9 /* main_iphone.storyboard */,
 				D019494017F9F4650055A4C9 /* main_ipad.storyboard */,
 				D019491517F9F4130055A4C9 /* Commonplace */,
@@ -248,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D019492017F9F4130055A4C9 /* AppDelegate.m in Sources */,
+				D0488D5817F9FFA500112BD2 /* MainViewController.m in Sources */,
 				D019491C17F9F4130055A4C9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,6 +378,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Commonplace/Commonplace-Prefix.pch";
 				INFOPLIST_FILE = "Commonplace/Commonplace-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -385,6 +392,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Commonplace/Commonplace-Prefix.pch";
 				INFOPLIST_FILE = "Commonplace/Commonplace-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -451,6 +459,7 @@
 				D019493A17F9F4130055A4C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D019493B17F9F4130055A4C9 /* Build configuration list for PBXNativeTarget "CommonplaceTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +468,7 @@
 				D019493D17F9F4130055A4C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
